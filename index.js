@@ -1,8 +1,6 @@
 require('dotenv-vault-core').config()
 
 const http = require('http')
-const url = require('url')
-
 const PORT = process.env.PORT || 5000
 
 const server = http.createServer((req, res) => {
